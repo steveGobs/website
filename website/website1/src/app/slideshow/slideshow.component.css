@@ -1,0 +1,21 @@
+.slideshow-container {
+    overflow: hidden;
+    width: 100%;
+    max-width: 1000px;
+    max-height: 900px;
+  }
+  
+  .slides {
+    display: flex;
+    transition: transform 2s ease-in-out;
+  }
+  
+  .slide {
+    flex: 0 0 100%;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
